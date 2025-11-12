@@ -1,6 +1,7 @@
 @use '../helpers' as *;
 
 .header {
+    overflow-x: clip;
     position: sticky;
     z-index: 100;
     top: 0;

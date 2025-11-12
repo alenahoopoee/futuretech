@@ -629,6 +629,7 @@ button[aria-label]::before {
 }
 
 .header {
+  overflow-x: clip;
   position: sticky;
   z-index: 100;
   top: 0;
@@ -1217,6 +1218,9 @@ button[aria-label]::before {
   }
 }
 
+.section {
+  overflow-x: clip;
+}
 .section__header {
   padding-block: clamp(2.5rem, 1.2254901961rem + 5.2287581699vw, 7.5rem);
   background-color: var(--color-dark-10);
